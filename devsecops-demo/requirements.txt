@@ -1,0 +1,8 @@
+# These versions are intentionally outdated and have known CVEs
+# Snyk and SonarCloud will flag these immediately
+
+Flask==0.12.2          # CVE-2018-1000656 - DoS vulnerability
+Jinja2==2.10           # CVE-2019-10906 - Sandbox escape
+Werkzeug==0.14.1       # CVE-2019-14806 - PIN brute force
+requests==2.18.0       # CVE-2018-18074 - Redirect with credentials
+urllib3==1.22          # CVE-2019-11324 - Certificate verification
